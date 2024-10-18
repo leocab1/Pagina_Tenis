@@ -1,0 +1,68 @@
+
+.light-bg {
+    background-color: #f4f4f4;
+}
+
+.dark-bg {
+    color: #fff;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.custom-table th, 
+.custom-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: #eee;
+}
+
+.custom-table td img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn.highlight {
+    background-color: #ff5c5c;
+    color: white;
+}
+
+.btn.large {
+    font-size: 1.2rem;
+}
+
+.btn.small {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+.special {
+    font-weight: bold;
+}
+

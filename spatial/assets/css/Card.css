@@ -1,0 +1,94 @@
+.product-cards {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Fondo claro para destacar las cards */
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    font-size: 1.2em;
+    margin: 15px 0;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
+  @media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card-container {
+      grid-template-columns: 1fr; /* 1 columna en pantallas móviles */
+    }
+  }
+
+
+  .search-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #search-input {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* Color del texto */
+    background-color: #7d41bd; /* Color de fondo del botón */
+    text-align: center;
+    text-decoration: none; /* Quitar subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn:hover {
+    background-color: #7d41bd; /* Color de fondo en hover */
+}
+
+#mini-navbar {
+  display: flex;
+  justify-content: center; /* Centra los enlaces */
+  margin: 20px 0; /* Espaciado vertical */
+}
+
+#mini-navbar a {
+  margin: 0 15px; /* Espaciado entre enlaces */
+  font-size: 16px; /* Tamaño de la fuente */
+  color: white; /* Color del texto */
+  text-decoration: none; /* Quitar subrayado */
+  transition: color 0.3s; /* Transición suave para el color */
+}
+

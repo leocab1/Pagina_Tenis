@@ -1,0 +1,25 @@
+@keyframes wipe-cinematic-out {
+  0% {
+    clip-path: inset(0 0 0 0);
+  }
+  30%, 70% {
+    clip-path: inset(10% 0 10% 0);
+  }
+  100% {
+    clip-path: inset(100% 0 100% 0);
+  }
+}
+
+.fullscreen {
+  position: fixed; /* Ocupa toda la pantalla */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ADD8E6; /* Azul claro */
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-cinematic-out both;
+}
+
+[transition-style="out:wipe:cinematic"] {
+  animation-name: wipe-cinematic-out;
+}
