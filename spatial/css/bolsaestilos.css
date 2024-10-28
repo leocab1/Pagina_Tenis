@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a5acd; /* Color morado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#lista-productos {
+    list-style-type: none;
+    padding: 0;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafafa;
+    transition: transform 0.2s;
+}
+
+.producto:hover {
+    transform: scale(1.02);
+}
+
+.producto-info {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.precio {
+    font-weight: bold;
+    color: #6a5acd; /* Color morado */
+}
+
+.boton-eliminar {
+    background-color: #e74c3c; /* Color rojo */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.boton-eliminar:hover {
+    background-color: #c0392b; /* Color rojo oscuro */
+}
+
+.vaciar-bolsa {
+    background-color: #3498db; /* Color azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    transition: background-color 0.3s;
+}
+
+.vaciar-bolsa:hover {
+    background-color: #2980b9; /* Color azul oscuro */
+}
+
+.imagen-producto {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

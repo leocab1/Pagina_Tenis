@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SneakerHub - Catálogo de Ropa</title>
+  <title>SneakerHub - Catálogo de Ropa Mujer</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="../spatial/assets/css/Card.css">
   <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
@@ -31,7 +31,7 @@
 <!-- Mini Navbar -->
 <nav id="mini-navbar">
   <a href="Ropa.php" class="btn">Catálogo Ropa</a> 
-  <a href="ropaM.php" class="btn">Catálogo Ropa Mujer</a> 
+  <a href="Ropa.php" class="btn">Catálogo Ropa Mujer</a> 
   <a href="uwu.php" class="btn">Accesorios</a> 
   <a href="Gorras.php" class="btn">Gorros y Gorras</a> 
 </nav>
@@ -48,37 +48,67 @@
 <section class="product-cards">
   <div class="card-container">
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1937748-800-auto?v=638606487730930000&width=800&height=auto&aspect=true" alt="Camisa 1">
-      <h3>Sudadera Original Standards Varsity</h3>
-      <p>La sudadera Original Standards Varsity Loose Crew representa versatilidad y estilo clásico.</p>
+      <img src="https://vansmx.vtexassets.com/arquivos/ids/1946564-800-auto?v=638629024308870000&width=800&height=auto&aspect=true" alt="Playera">
+      <h3>Playera corta sin mangas</h3>
+      <p>La playera corta sin mangas ajustada es una playera confeccionada con un tejido de punto de algodón pesado y presenta un gráfico de dados en llamas de Vans® en la parte delantera.</p>
       <p><strong>Marca:</strong>Vans</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Precio:</strong> $599</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1919020-800-auto?v=638578928306100000&width=800&height=auto&aspect=true" alt="Pantalones 1">
-      <h3>Pantalón Fatigue holgado de pierna cónica</h3>
-      <p>Los pantalones Fatigue te brindan todo el estilo, comodidad, movilidad.</p>
+      <img src="https://vansmx.vtexassets.com/arquivos/ids/1919108-800-auto?v=638578929252500000&width=800&height=auto&aspect=true" alt="Pantalones 1">
+      <h3>Playera corta First Team Relax</h3>
+      <p>La playera corta First Team Relax es una playera de manga corta, corte relajado y confeccionada con un jersey de algodón grueso.</p>
       <p><strong>Marca:</strong>Vans</p>
-      <p><strong>Precio:</strong> $50</p>
+      <p><strong>Precio:</strong> $650</p>
       <p><strong>Stock:</strong> 10 unidades</p>
     </div>
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1938053-800-auto?v=6386064893535700
-      00&width=800&height=auto&aspect=true" alt="Chaqueta 1">
-      <h3>Pantalón Original Standards holgado</h3>
-      <p>Los pantalones holgados de forro polar Original Standards .</p>
+      <img src="https://vansmx.vtexassets.com/arquivos/ids/1914455-800-auto?v=638578893880730000&width=800&height=auto&aspect=true" alt="Chaqueta 1">
+      <h3>Playera tank Drew Rib</h3>
+      <p>Diseñada para ser tu prenda básica favorita, la camiseta sin mangas Drew Rib se puede usar en capas o sola .</p>
       <p><strong>Marca:</strong>Vans</p>
-      <p><strong>Precio:</strong> $100</p>
+      <p><strong>Precio:</strong> $580</p>
       <p><strong>Stock:</strong> 8 unidades</p>
     </div>
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1918544-800-auto?v=638578924865370000&width=800&height=auto&aspect=true" alt="Camisa 1">
-      <h3>Camisa Westfield</h3>
-      <p>Con muchos bolsillos para darle estilo y guardar cosas, la Camisa Westfield combina las mejores partes de
-        una camisa y una chamarra para ayudarte a afrontar el clima más frío.</p>
+      <img src="https://vansmx.vtexassets.com/arquivos/ids/1914335-800-auto?v=638578892905700000&width=800&height=auto&aspect=true" alt="Camisa 1">
+      <h3>Playera Blackout Floral</h3>
+      <p>La Blackout Floral Crew es una camiseta de manga corta con cuello redondo confeccionada con un algodón más pesado, presenta un gráfico floral al frente..</p>
       <p><strong>Marca:</strong>Vans</p>
+      <p><strong>Precio:</strong> $899</p>
+      <p><strong>Stock:</strong> 15 unidades</p>
+    </div>
+    <div class="card">
+      <img src="https://vansmx.vtexassets.com/arquivos/ids/1919661-800-auto?v=638578933750430000&width=800&height=auto&aspect=true" alt="Camisa 1">
+      <h3>Chaleco SYD</h3>
+      <p>Una pieza clásica confeccionada con el estilo singular de Vans®, el chaleco Syd tiene escote en V, dobladillos acanalados y un lavado ácido en toda su extensión para ayudarte a destacar entre la multitud.</p>
+      <p><strong>Marca:</strong> Vans</p>
       <p><strong>Precio:</strong> $30</p>
+      <p><strong>Stock:</strong> 15 unidades</p>
+    </div>
+    <div class="card">
+      <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/2/_/2_12561.jpg?width=768&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
+      <h3>Overol Largo de Mezclilla</h3>
+      <p>Comodidad y frescura para el día a día.</p>
+      <p><strong>Marca:</strong> Cuidado con el Perro</p>
+      <p><strong>Precio:</strong> $499.00</p>
+      <p><strong>Stock:</strong> 15 unidades</p>
+    </div>
+    <div class="card">
+      <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_12498.jpg?width=1920&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
+      <h3>Sudadera con Capucha y Bordado Blanca</h3>
+      <p>Sudadera blanca con capucha, bordado Chicago en negro y bolsillo canguro..</p>
+      <p><strong>Marca:</strong> Cuidado con el Perro</p>
+      <p><strong>Precio:</strong> $279.99</p>
+      <p><strong>Stock:</strong> 15 unidades</p>
+    </div>
+    <div class="card">
+      <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_10575.jpg?width=768&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
+      <h3>Jeans Recto de Mezclilla Azul Claro</h3>
+      <p>Comodidad y frescura para el día a día.</p>
+      <p><strong>Marca:</strong> Cuidado con el Perro</p>
+      <p><strong>Precio:</strong> $329.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
@@ -106,59 +136,27 @@
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_12593.jpg?width=1920&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
+      <h3>Overol Negro de Corte Largo</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Cuidado con el Perro</p>
+      <p><strong>Precio:</strong> $499.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
+      <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_7462.jpg?width=1920&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
       <h3>Camisa de Algodón</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Cuidado con el Perro</p>
+      <p><strong>Precio:</strong> $299.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
-      <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
-      <p><strong>Stock:</strong> 15 unidades</p>
-    </div>
-    <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
-      <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
-      <p><strong>Stock:</strong> 15 unidades</p>
-    </div>
-    <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
-      <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
-      <p><strong>Stock:</strong> 15 unidades</p>
-    </div>
-    <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
-      <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
-      <p><strong>Stock:</strong> 15 unidades</p>
-    </div>
-    <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
-      <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/5/_/5_2031.jpg?width=768&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
+      <h3>Jeans Flare de Mezclilla Azul Claro</h3>
+      <p>Pantalón flare azul claro de cinco bolsillos, en mezclilla stretch y botón metálico..</p>
+      <p><strong>Marca:</strong> Cuidado con el Perro</p>
+      <p><strong>Precio:</strong> $299.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
@@ -180,9 +178,8 @@
   </div>
 </section>
 
-
 <nav id="mini-navbar">
-  <a href="Ropa1.php" class="btn">Catalogo Siguiente</a> 
+  <a href="RopaM1.php" class="btn">Catálogo Siguiente</a> 
 </nav>
 
 <!-- Footer -->

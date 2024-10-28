@@ -1,0 +1,10 @@
+.swal-button-morado {
+    background-color: #6f42c1; /* Color morado */
+    border-color: #6f42c1; /* Asegúrate de que el borde sea del mismo color */
+    color: white; /* Color del texto */
+}
+
+.swal-button-morado:hover {
+    background-color: #5a32a1; /* Color morado más oscuro al pasar el ratón */
+    border-color: #5a32a1; /* Borde más oscuro al pasar el ratón */
+}

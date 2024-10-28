@@ -4,22 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SneakerHub - Catálogo de Productos</title>
-  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+  <link rel="stylesheet" href="../spatial/assets/css/main.css">
   <link rel="stylesheet" href="../spatial/css/botoncompra.css">
   <link rel="stylesheet" href="../spatial/css/regresar.css">
   <link rel="stylesheet" href="../spatial/assets/css/Card.css">
   <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
 </head>
+
+<style>
+    #product-count {
+    color: #7d41bd;
+    font-size: 2rem;
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 20px;
+  }
+
+</style>
+
 <body class="landing">
 
 <header id="header">
-  <h1><strong><a href="index.php">SneakerHub</a></strong></h1>
+  <h1><strong><a href="./CompradorDash.php">SneakerHub</a></strong></h1>
   <nav id="nav">
     <ul>
-      <li><a href="CatalogoDeProductos.php">Catálogo de Productos</a></li>
-      <li><a href="Gestion_Stock.html">Gestión de Stock</a></li>
-      <li><a href="HistorialVenta.php">Historial de Ventas</a></li>
-      <li><a href="ordenes.php">Órdenes de Compras</a></li>
+      <li><a href="./CompradorProductos.php">Catálogo de Productos</a></li>
+      <li><a href="../spatial/bolsa.php">Bolsa Productos</a></li>
       <li><a href="../spatial/Conexion/cerrar.php">Cerrar Sesión</a></li>
     </ul>
   </nav>
@@ -32,10 +43,10 @@
 
 <!-- Mini Navbar -->
 <nav id="mini-navbar">
-  <a href="Ropa.php" class="btn">Catálogo Ropa</a> 
-  <a href="ropaM.php" class="btn">Catálogo Ropa Mujer</a> 
-  <a href="uwu.php" class="btn">Accesorios</a> 
-  <a href="Gorras.php" class="btn">Gorros y Gorras</a> 
+  <a href="./RopaU.php" class="btn">Catálogo Ropa</a> 
+  <a href="./RopaMcomp.php" class="btn">Catálogo Ropa Mujer</a> 
+  <a href="./AccesorioComprador.php" class="btn">Accesorios</a> 
+  <a href="./GorrasComprador.php" class="btn">Gorros y Gorras</a> 
 </nav>
 
 
@@ -46,27 +57,31 @@
 </section>
 
 
-  <section class="product-cards">
-  <h2 id="product-count"></h2> 
+<section class="product-cards">
+<h2 id="product-count">
+
+</h2> <!-- Aquí se mostrará la cantidad de productos -->
   <div class="card-container">
-    <div class="card">
-      <img src="../spatial/images//minita.jpg" alt="Tenis 1">
-      <h3>Nike Air Max</h3>
-      <p>Comodidad y estilo en cada paso.</p>
-      <p><strong>ID:</strong> 00123</p>
-  <p><strong>Precio:</strong> $250</p>
-  <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
-    <div class="button-wrapper">
-      <div class="text">Agregar</div>
-      <span class="icon">
-        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
-        </svg>
-      </span>
+  <div class="card">
+    <img src="images/minita.jpg" alt="Tenis 1">
+    <h3>Nike Air Max</h3>
+    <p>Comodidad y estilo en cada paso.</p>
+    <p><strong>ID:</strong> 00123</p>
+    <p><strong>Precio:</strong> $250</p>
+    <p><strong>Stock:</strong> 10 unidades</p>
+    <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Nike Air Max', '00123', 250, 10)">
+      <div class="button-wrapper">
+        <div class="text">Agregar</div>
+        <span class="icon">
+          <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+          </svg>
+        </span>
+      </div>
     </div>
   </div>
-    </div>
+
+    
 
 
     <div class="card">
@@ -78,7 +93,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Adidas Ultraboost', '00123', 250, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -100,7 +115,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" class="button" onclick="agregarProducto('Puma RS-X', '00123', 250, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -121,7 +136,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Reebok Classic', '00123', 250, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -142,7 +157,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Converse All Star', '00123', 250, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -165,7 +180,7 @@
 
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Vans Old Skool', '00123', 250, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -187,7 +202,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Jordan 1', '00123', 120, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -209,7 +224,7 @@
   <p><strong>Precio:</strong> $120</p>
   <p><strong>Stock:</strong> 10 unidades</p>
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Asics Gel-Lyte', '00123', 120, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -223,7 +238,7 @@
     </div>
     <div class="card">
       <img src="./images/force.png" alt="Tenis 8">
-      <h3>tenis nike air force 1 07 triple white</h3>
+      <h3>nike air force 1 07 triple white</h3>
       <p>Regresan unos de los sneakers más 
         históricos con los Tenis Nike Air
          Force 1 07 Triple White para hombres.</p>
@@ -232,7 +247,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('nike air force 1 07 triple white', '00123', 120)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -257,7 +272,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('NEW BALANCE - bb550', '00123', 120)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -282,7 +297,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('nike cortez', '00123', 120)" >
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -304,7 +319,7 @@
   <p><strong>Stock:</strong> 10 unidades</p>
 
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('nike full force', '00123', 120)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -323,10 +338,10 @@
       <h3>nike air max solo</h3>
       <p>Comienza a pensar en los mejores conjuntos con estos tenis casuales Nike Air Max Solo .</p>
       <p><strong>ID:</strong> 00123</p>
-  <p><strong>Precio:</strong> $120</p>
+  <p><strong>Precio:</strong> $650.20</p>
   <p><strong>Stock:</strong> 10 unidades</p>
 
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('00123', 'nike air max solo', 650.20)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -340,15 +355,14 @@
 
     </div>
     
-    <div class="card"> <!-- Abre el div card -->
+    <div class="card">
   <img src="./images/mid.png" alt="Tenis 8">
   <h3>blazer mid 77 vntg</h3>
   <p>Los Tenis Nike Blazer Mid 77 Vintage White Black para hombres son un clásico de la década de los 70s.</p>
   <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $120</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('blazer mid 77 vntg','00123',  120)" >
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -367,7 +381,7 @@
   <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $80</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio: $80" class="button">
+  <div data-tooltip="Precio: $80" class="button" onclick="agregarProducto('zoom vomero 5 sp', '00123', 80)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -379,14 +393,14 @@
   </div>
 </div>
 
-    <div class="card">
-      <img src="./images/ad.png" alt="Tenis 8">
-      <h3>forum low white royal blue</h3>
-      <p>Tenis casuales estilos new.</p>
-      <p><strong>ID:</strong> 00123</p>
-     <p><strong>Precio:</strong> $120</p>
-     <p><strong>Stock:</strong> 10 unidades</p>
-     <div data-tooltip="Precio:$120" class="button">
+<div class="card">
+  <img src="./images/ad.png" alt="Tenis 8">
+  <h3>Forum Low White Royal Blue</h3>
+  <p>Tenis casuales estilos new.</p>
+  <p><strong>ID:</strong> 00123</p>
+  <p><strong>Precio:</strong> $120</p>
+  <p><strong>Stock:</strong> 10 unidades</p>
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Forum Low White Royal Blue', '00123', 120)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -396,6 +410,7 @@
       </span>
     </div>
   </div>
+</div>
     </div>
     </div>
     
@@ -403,10 +418,13 @@
 </section>
 
 
-<nav id="mini-navbar">
-  <a href="Tenis1.php" class="btn" id="animate-btn">Catálogo Siguiente</a>
-</nav>
+<div id="content">
+    <nav id="mini-navbar">
+        <a href="./tenisUsuario.php" class="btn" id="animate-btn" onclick="animar()">Catálogo Siguiente</a>
+    </nav>
+</div>
 <div id="fullscreen-anim"></div>
+
 
 
 
@@ -425,23 +443,25 @@
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./js/agregarProductos.js"></script>
 
 
 <script>
-const btn = document.getElementById('animate-btn');
-const fullscreenAnim = document.getElementById('fullscreen-anim');
-
-btn.addEventListener('click', function (event) {
-  event.preventDefault(); // Evita la redirección inmediata
-  fullscreenAnim.classList.add('transition-wipe-right'); // Aplica la animación a pantalla completa
-  
-  // Redirige después de la animación
-  setTimeout(function() {
-    window.location.href = btn.href; // Redirige al href del botón
-  }, 1000); // Duración de la animación
-});
+  document.addEventListener("DOMContentLoaded", function() {
+    const productCards = document.querySelectorAll('.card');
+    
+    const productCount = productCards.length;
+    
+    const productCountElement = document.getElementById('product-count');
+    
+    if (productCountElement) {
+      productCountElement.textContent = `Número de productos: ${productCount}`;
+    }
+  });
 </script>
 
+<script src="../spatial/js/animacion.js"></script>
 
 </body>
 </html>
