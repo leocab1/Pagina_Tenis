@@ -112,11 +112,11 @@
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="../spatial/images/uwuuuuuuuuuuu.avif" alt="Camisa 1">
+      <h3>Playera manga corta Punt Roma cuello redondo para mujer      </h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Punt Roma</p>
+      <p><strong>Precio:</strong> $750</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
@@ -160,11 +160,11 @@
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1918564-800-auto?v=638578925004400000&width=800&height=auto&aspect=true" alt="Camisa 1">
-      <h3>Camisa Wilshire</h3>
-      <p>Luce fabuloso a cuadros con la camisa Wilshire Mini Plaid Woven.</p>
-      <p><strong>Marca:</strong>Vans</p>
-      <p><strong>Precio:</strong> $30</p>
+      <img src="../spatial//images//senpai.avif" alt="Camisa 1">
+      <h3>Sudadera capucha y bolsa Aéropostale para mujer      </h3>
+      <p>Sudadera tendencia Aéropostale.</p>
+      <p><strong>Marca:</strong>Aéropostale</p>
+      <p><strong>Precio:</strong> $850</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
