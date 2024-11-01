@@ -112,10 +112,6 @@
 </section>
 
 
-<nav id="mini-navbar">
-  <a href="./GorrasComprador1.php" class="btn">Catálogo Siguiente</a> 
-</nav>
-
 <div class="copyright">
   <p>&copy; SneakerHub</p>
 </div>

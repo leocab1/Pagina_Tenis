@@ -60,7 +60,7 @@
 <section class="product-cards">
 <h2 id="product-count">
 
-</h2> <!-- Aquí se mostrará la cantidad de productos -->
+</h2>
   <div class="card-container">
   <div class="card">
     <img src="images/minita.jpg" alt="Tenis 1">

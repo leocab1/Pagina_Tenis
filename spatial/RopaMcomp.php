@@ -5,11 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SneakerHub - Catálogo de Ropa Mujer</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="../spatial/css/botoncompra.css">
+  <link rel="stylesheet" href="../spatial/css/regresar.css">
+  <link rel="stylesheet" href="../spatial/assets/css/Card.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-
   <link rel="stylesheet" href="../spatial/assets/css/Card.css">
   <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
 </head>
+
+<style>
+    #product-count {
+    color: #7d41bd;
+    font-size: 2rem;
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 20px;
+  }
+
+</style>
+
+
 <body class="landing">
 
 <header id="header">
@@ -43,6 +58,11 @@
   <button onclick="filterProducts()">Buscar</button>
 </section>
 
+
+
+<section class="product-cards">
+<h2 id="product-count">
+</h2>
 
 
 <section class="product-cards">
@@ -233,6 +253,24 @@
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
-<script src="../spatial/js/agregarProductos.js"></script>
+<script src="./js/agregarProductos.js"></script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const productCards = document.querySelectorAll('.card');
+    
+    const productCount = productCards.length;
+    
+    const productCountElement = document.getElementById('product-count');
+    
+    if (productCountElement) {
+      productCountElement.textContent = `Número de productos: ${productCount}`;
+    }
+  });
+</script>
+
+<script src="../spatial/js/animacion.js"></script>
+
 </body>
 </html>

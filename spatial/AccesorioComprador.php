@@ -10,6 +10,20 @@
   <link rel="stylesheet" href="../spatial/css/botoncompra.css">
   <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
 </head>
+
+<style>
+    #product-count {
+    color: #7d41bd;
+    font-size: 2rem;
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 20px;
+  }
+
+</style>
+
+
+
 <body class="landing">
 
 <header id="header">
@@ -23,9 +37,6 @@
   </nav>
 </header>
 
-<br>
-<br>
-<br>
 
 
 <!-- Mini Navbar -->
@@ -43,7 +54,10 @@
   <button onclick="filterProducts()">Buscar</button>
 </section>
 
+<section class="product-cards">
+<h2 id="product-count">
 
+</h2>
 <section class="product-cards">
   <h2 style="text-align: center;">Accesorios</h2>
   <div class="card-container">
@@ -92,8 +106,10 @@
   </div>
 </section>
 
-<br>
-<br>
+<nav id="mini-navbar">
+  <a href="./GorrasComprador1.php" class="btn">Catálogo Siguiente</a> 
+</nav>
+
 
 <div class="copyright">
   <p>&copy; SneakerHub</p>
@@ -105,6 +121,21 @@
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="./js/agregarProductos.js"></script>
 <script src="assets/js/main.js"></script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const productCards = document.querySelectorAll('.card');
+    
+    const productCount = productCards.length;
+    
+    const productCountElement = document.getElementById('product-count');
+    
+    if (productCountElement) {
+      productCountElement.textContent = `Número de productos: ${productCount}`;
+    }
+  });
+</script>
 
 </body>
 </html>

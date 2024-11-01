@@ -120,19 +120,19 @@
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss553.liverpool.com.mx/xl/1145995232.jpg" alt="Camisa 1">
+      <h3>Blusa Dockers manga larga para mujer</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $679.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss553.liverpool.com.mx/xl/1158780889.jpg" alt="Camisa 1">
+      <h3>Playera manga corta Dockers cuello redondo para mujer</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $700</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
@@ -168,11 +168,11 @@
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1919534-800-auto?v=638578932760800000&width=800&height=auto&aspect=true" alt="Camisa 1">
-      <h3>Sudadera Ranford Polar de medio cierre</h3>
+      <img src="https://ss533.liverpool.com.mx/xl/1161465417.jpg" alt="Camisa 1">
+      <h3>Punt Roma</h3>
       <p>Enfréntate a las temperaturas más frías con la sudadera.</p>
-      <p><strong>Marca:</strong>Vans</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong>Punt Roma</p>
+      <p><strong>Precio:</strong> $450</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
   </div>

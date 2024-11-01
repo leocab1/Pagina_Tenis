@@ -10,6 +10,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
   <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
 </head>
+
+<style>
+    #product-count {
+    color: #7d41bd;
+    font-size: 2rem;
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 20px;
+  }
+
+</style>
+
 <body class="landing">
 
 <header id="header">
@@ -42,6 +54,11 @@
   <input type="number" id="max-price" placeholder="Precio máximo...">
   <button onclick="filterProducts()">Buscar</button>
 </section>
+
+
+
+<section class="product-cards">
+<h2 id="product-count"></h2>
 
 
 
@@ -359,5 +376,24 @@
 <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../spatial/js/agregarProductos.js"></script>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const productCards = document.querySelectorAll('.card');
+    
+    const productCount = productCards.length;
+    
+    const productCountElement = document.getElementById('product-count');
+    
+    if (productCountElement) {
+      productCountElement.textContent = `Número de productos: ${productCount}`;
+    }
+  });
+</script>
+
+
+
+
 </body>
 </html>
