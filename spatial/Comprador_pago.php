@@ -8,7 +8,32 @@
     <link rel="stylesheet" href="../spatial/assets/css/main.css">
     <link rel="stylesheet" href="../spatial/css/eliminar.css">
     <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
+  
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+    .productos-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .producto-item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding: 1rem 0;
+    }
+    .producto-imagen {
+        width: 100px;
+        height: auto;
+        margin-right: 1rem;
+    }
+    .producto-detalle h3 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+</style>
+
+
 </head>
 <body class="landing">
 
@@ -23,9 +48,12 @@
     </nav>
 </header>
 
+
 <div class="container">
     <h2>Información de Pago</h2>
     <form id="pago-form" action="../spatial/GuardarPa.php" method="POST">
+        <div id="productos-list" class="productos-list"></div> <!-- Contenedor de productos -->
+        
         <div class="mb-3">
             <label for="nombre" class="form-label">Nombre:</label>
             <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -40,15 +68,26 @@
 </div>
 
 <script>
-    // Rellenar el campo oculto 'productos' con datos de localStorage
     window.onload = function() {
         const productos = JSON.parse(localStorage.getItem('productos')) || [];
         document.getElementById('productos').value = JSON.stringify(productos);
+
+        // Mostrar productos en el contenedor
+        const productosList = document.getElementById('productos-list');
+        productosList.innerHTML = productos.map(producto => `
+            <div class="producto-item">
+                <div class="producto-detalle">
+                    <h3>${producto.nombre}</h3>
+                    <p>Precio: $${producto.precio}</p>
+                    <p>Cantidad: ${producto.cantidad}</p>
+                </div>
+            </div>
+        `).join('');
     }
 
     // SweetAlert para confirmación y envío de datos
     document.getElementById('pago-form').addEventListener('submit', function(event) {
-        event.preventDefault(); // Evita el envío directo del formulario
+        event.preventDefault();
 
         Swal.fire({
             title: '¿Confirmar Pago?',
@@ -61,7 +100,6 @@
             if (result.isConfirmed) {
                 const formData = new FormData(document.getElementById('pago-form'));
 
-                // Enviar los datos con fetch y mostrar el resultado con SweetAlert
                 fetch('../spatial/GuardarPa.php', {
                     method: 'POST',
                     body: formData
@@ -74,7 +112,8 @@
                             text: data.message,
                             icon: 'success'
                         }).then(() => {
-                            window.location.href = './CompradorDash.php'; // Redirige después del éxito
+                            localStorage.removeItem('productos');
+                            window.location.href = './CompradorDash.php';
                         });
                     } else {
                         Swal.fire({
