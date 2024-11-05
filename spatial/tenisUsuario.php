@@ -5,9 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SneakerHub - Catálogo de Productos</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
   <link rel="stylesheet" href="../spatial/css/botoncompra.css">
   <link rel="stylesheet" href="../spatial/assets/css/Card.css">
   <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
+  <style>
+    #product-count {
+      color: #7d41bd;
+      font-size: 2rem;
+      font-weight: bold; 
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body class="landing">
 
@@ -52,7 +62,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $2,999.00</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
   <div class="button-wrapper"></div>
   <div class="text">Agregar</div>
   <span class="icon"></span>
@@ -68,8 +78,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $1,469.30</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-
-  <div data-tooltip="Precio:$1,469.30" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -88,8 +97,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $2,399.00</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Nike Air Max', '00123', 250, 10)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -109,7 +117,8 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $1,679.00</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Nike Air Max', '00123', 250, 10)">
+
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -127,7 +136,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $1,679.00</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Nike Air Max', '00123', 250, 10)">
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -145,8 +154,8 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $1,469.00</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
-     <div class="button-wrapper">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+  <div class="button-wrapper">
      <div class="text">Agregar</div>
      <span class="icon">
         <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
@@ -163,7 +172,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $120</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -181,7 +190,8 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $120</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -201,7 +211,8 @@
          <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $120</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -219,7 +230,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $120</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -237,7 +248,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $120</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -255,7 +266,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $2,399.00</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -273,7 +284,7 @@
       <p><strong>ID:</strong> 00123</p>
   <p><strong>Precio:</strong> $1,999.00</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button">
+  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
   <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -291,7 +302,7 @@
         <p><strong>ID:</strong> 00123</p>
          <p><strong>Precio:</strong> $1,999.00</p>
         <p><strong>Stock:</strong> 10 unidades</p>
-        <div data-tooltip="Precio:$120" class="button">
+        <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
         <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -309,7 +320,7 @@
       <p><strong>ID:</strong> 00123</p>
      <p><strong>Precio:</strong> $1,899.00</p>
      <p><strong>Stock:</strong> 10 unidades</p>
-     <div data-tooltip="Precio:$120" class="button">
+     <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
      <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -327,7 +338,7 @@
       <p><strong>ID:</strong> 00123</p>
      <p><strong>Precio:</strong> $2,599.00</p>
      <p><strong>Stock:</strong> 10 unidades</p>
-     <div data-tooltip="Precio:$120" class="button">
+     <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
      <div class="button-wrapper">
   <div class="text">Agregar</div>
   <span class="icon">
@@ -356,8 +367,12 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="../spatial/js/animacion.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="../spatial/js/agregarProductos.js"></script>
+<script src="../spatial/js//filtrarPrecioGorros.js"></script>
+
 
 
 

@@ -74,6 +74,7 @@
       <p><strong>Marca:</strong>Vans</p>
       <p><strong>Precio:</strong> $599</p>
       <p><strong>Stock:</strong> 15 unidades</p>
+      
       <div data-tooltip="Precio:$599" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 599, 5)">
       <div class="button-wrapper">
       <div class="text">Agregar</div>
@@ -375,6 +376,7 @@
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="../spatial/js/compradorjs.js"></script>
 <script src="./js/agregarProductos.js"></script>
 <script src="../spatial/js//filtrarPrecioGorros.js"></script>

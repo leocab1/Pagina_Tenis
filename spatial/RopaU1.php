@@ -4,17 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SneakerHub - Catálogo de Ropa</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="../spatial/css/botoncompra.css">
   <link rel="stylesheet" href="../spatial/assets/css/Card.css">
   <link rel="shortcut icon" href="../spatial/images/uwuu.ico" type="image/x-icon">
 </head>
+
+<style>
+    #product-count {
+    color: #7d41bd;
+    font-size: 2rem;
+    font-weight: bold; 
+    text-align: center;
+    margin-top: 20px;
+  }
+
+</style>
+
 <body class="landing">
 
 <header id="header">
   <h1><strong><a href="./CompradorDash.php">SneakerHub</a></strong></h1>
   <nav id="nav">
     <ul>
-      <li><a href="CatalogoDeProductos.php">Catálogo de Productos</a></li>
+      <li><a href="./CompradorProductos.php">Catálogo de Productos</a></li>
+      <li><a href="../spatial/bolsa.php">Bolsa Productos</a></li>
       <li><a href="../spatial/Conexion/cerrar.php">Cerrar Sesión</a></li>
     </ul>
   </nav>
@@ -216,7 +231,15 @@
       <p><strong>Precio:</strong> $439.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$439.99" class="button" onclick="agregarProducto('Playera tipo polo American Eagle Mens Ss Solid Po para hombre', 'American Eagle', 439.99, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://ss223.liverpool.com.mx/xl/1128721416.jpg" alt="Camisa 1">
@@ -226,7 +249,15 @@
       <p><strong>Precio:</strong> $659.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$659.99" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://ss271.liverpool.com.mx/xl/1161100910.jpg" alt="Camisa 1">
@@ -236,7 +267,15 @@
       <p><strong>Precio:</strong> $1,999</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$1,999" class="button" onclick="agregarProducto('Camisa de vestir Dockers de algodón manga larga para hombre', 'Dockers', 1,999, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/Dock.avif" alt="Camisa 1">
@@ -246,7 +285,15 @@
       <p><strong>Precio:</strong> $1,999</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$1,999" class="button" onclick="agregarProducto('Camisa de vestir Dockers de algodón manga larga para hombre', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://ss271.liverpool.com.mx/xl/1138815869.jpg" alt="Camisa 1">
@@ -256,7 +303,15 @@
       <p><strong>Precio:</strong> $499</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$499" class="button" onclick="agregarProducto('Camisa casual Dioro de algodón manga larga para hombre', 'Dioro', 499, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1918564-800-auto?v=638578925004400000&width=800&height=auto&aspect=true" alt="Camisa 1">
@@ -266,7 +321,15 @@
       <p><strong>Precio:</strong> $30</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1919534-800-auto?v=638578932760800000&width=800&height=auto&aspect=true" alt="Camisa 1">
@@ -276,7 +339,15 @@
       <p><strong>Precio:</strong> $30</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
   </div>
 </section>
@@ -286,16 +357,9 @@
   <a href="./RopaU.php" class="btn">Regresar Catalogo</a> 
 </nav>
 
-<!-- Footer -->
-<footer id="footer">
-  <div class="container">
-    <ul class="icons">
-      <li><a href="#" class="icon fa-facebook"></a></li>
-      <li><a href="#" class="icon fa-twitter"></a></li>
-      <li><a href="#" class="icon fa-instagram"></a></li>
-    </ul>
-  </div>
-</footer>
+
+
+
 <div class="copyright">
   <p>&copy; SneakerHub</p>
 </div>
@@ -304,6 +368,8 @@
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../spatial/js/agregarProductos.js"></script>
 
 </body>
 </html>
