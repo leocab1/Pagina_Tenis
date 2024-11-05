@@ -28,7 +28,7 @@
 <!-- Mini Navbar -->
 <nav id="mini-navbar">
   <a href="./RopaU.php" class="btn">Catálogo Ropa</a> 
-  <a href="ropaM.php" class="btn">Catálogo Ropa Mujer</a> 
+  <a href="./RopaMcomp.php" class="btn">Catálogo Ropa Mujer</a> 
   <a href="./AccesorioComprador.php" class="btn">Accesorios</a> 
   <a href="./GorrasComprador.php" class="btn">Gorros y Gorras</a> 
 </nav>
@@ -86,103 +86,103 @@
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss271.liverpool.com.mx/xl/1146427351.jpg" alt="Camisa 1">
+      <h3>Camisa casual Dockers de algodón manga larga para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $750</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$750" class="button" onclick="agregarProducto('Camisa casual Dockers de algodón manga larga para hombre', 'Dockers', 750, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="../spatial/images/oper.avif" alt="Camisa 1">
+      <h3>Camisa casual Dockers de algodón manga larga para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $1,399</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$1,399" class="button" onclick="agregarProducto('Camisa casual Dockers de algodón manga larga para hombre', 'Vans', 250, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="../spatial/images/ope.avif" alt="Camisa 1">
+      <h3>Playera tipo polo Dockers T3 Polo para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $850</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$850" class="button" onclick="agregarProducto('Playera tipo polo Dockers T3 Polo para hombre', 'Dockers', 250, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss271.liverpool.com.mx/xl/1146748069.jpg" alt="Camisa 1">
+      <h3>Playera tipo polo Dockers T3 POLO para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $700</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$700" class="button" onclick="agregarProducto('Playera tipo polo Dockers T3 POLO para hombre', 'Dockers', 250, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss251.liverpool.com.mx/xl/1156669225.jpg" alt="Camisa 1">
+      <h3>Playera tipo polo American Eagle para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> American Eagle</p>
+      <p><strong>Precio:</strong> $639.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$639.99" class="button" onclick="agregarProducto('Playera tipo polo American Eagle para hombre', 'American Eagle', 639.99, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss251.liverpool.com.mx/xl/1150904546.jpg" alt="Camisa 1">
+      <h3>Playera tipo polo American Eagle Mens Ss Solid Po para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> American Eagle</p>
+      <p><strong>Precio:</strong> $439.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$439.99" class="button" onclick="agregarProducto('Playera tipo polo American Eagle Mens Ss Solid Po para hombre', 'American Eagle', 439.99, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss223.liverpool.com.mx/xl/1128721416.jpg" alt="Camisa 1">
+      <h3>Playera tipo polo para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Gap</p>
+      <p><strong>Precio:</strong> $659.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$659.99" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss271.liverpool.com.mx/xl/1161100910.jpg" alt="Camisa 1">
+      <h3>Camisa de vestir Dockers de algodón manga larga para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $1,999</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$1,999" class="button" onclick="agregarProducto('Camisa de vestir Dockers de algodón manga larga para hombre', 'Dockers', 1,999, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="../spatial/images/Dock.avif" alt="Camisa 1">
+      <h3>Camisa de vestir Dockers de algodón manga larga para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Dockers</p>
+      <p><strong>Precio:</strong> $1,999</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$1,999" class="button" onclick="agregarProducto('Camisa de vestir Dockers de algodón manga larga para hombre', 'Vans', 250, 5)">
       </div>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="https://ss271.liverpool.com.mx/xl/1138815869.jpg" alt="Camisa 1">
+      <h3>Camisa casual Dioro de algodón manga larga para hombre</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Maca:</strong> Dioro</p>
+      <p><strong>Precio:</strong> $499</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$499" class="button" onclick="agregarProducto('Camisa casual Dioro de algodón manga larga para hombre', 'Dioro', 499, 5)">
       </div>
     </div>
     <div class="card">

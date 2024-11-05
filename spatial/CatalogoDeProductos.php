@@ -39,11 +39,6 @@
 </nav>
 
 
-<section class="search-section">
-  <input type="number" id="min-price" placeholder="Precio mínimo...">
-  <input type="number" id="max-price" placeholder="Precio máximo...">
-  <button onclick="filterProducts()">Buscar</button>
-</section>
 
 
   <section class="product-cards">
@@ -438,7 +433,7 @@ btn.addEventListener('click', function (event) {
   // Redirige después de la animación
   setTimeout(function() {
     window.location.href = btn.href; // Redirige al href del botón
-  }, 1000); // Duración de la animación
+  }, ); // Duración de la animación
 });
 </script>
 

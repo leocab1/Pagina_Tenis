@@ -110,7 +110,6 @@
     </div>
   </div>
     </div>
-    
     <div class="card" data-price="399">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1939447-800-auto?v=638606549548500000&width=800&height=auto&aspect=true" alt="Gorra 2">
       <h3>Beanie Core Basics</h3>
@@ -134,7 +133,7 @@
 </section>
 
 <nav id="mini-navbar">
-  <a href="./Accesorios1.php" class="btn">Catálogo Siguiente</a> 
+  <a href="./AccesorioComprador.php" class="btn">Catálogo Anterior</a> 
 </nav>
 
 <div class="copyright">

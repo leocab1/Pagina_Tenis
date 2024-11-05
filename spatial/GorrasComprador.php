@@ -68,44 +68,44 @@
 <section class="product-cards">
   <h2 style="text-align: center;">Catálogo de Gorros y Gorras</h2>
   <div class="card-container">
-    <div class="card">
+    <div class="card" data-price="465">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1937663-800-auto?v=638606487092930000&width=800&height=auto&aspect=true" alt="Gorro 1">
       <h3>Gorra Vans 66 Structured</h3>
       <p>Comodidad y estilo para cualquier ocasión.</p>
       <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $350</p>
+      <p><strong>Precio:</strong> $465</p>
       <p><strong>Stock:</strong> 25 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Gorra Vans 66 Structured', 'Vans', 399, 10)">
+      <div data-tooltip="Precio:$465" class="button" onclick="agregarProducto('Gorra Vans 66 Structured', 'Vans', 465, 10)">
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-price="320">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1939448-800-auto?v=638606549599630000&width=800&height=auto&aspect=true" alt="Gorra 1">
       <h3>Beanie Waffle Cuff</h3>
       <p>Diseño moderno y ajustable para mayor comodidad.</p>
       <p><strong>Marca:</strong> Vans</p>
       <p><strong>Precio:</strong> $320</p>
       <p><strong>Stock:</strong> 30 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Beanie Waffle Cuff', 'Vans', 399, 10)">
+      <div data-tooltip="Precio:$320" class="button" onclick="agregarProducto('Beanie Waffle Cuff', 'Vans', 399, 10)">
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-price="399.9">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1892261-800-auto?v=638575376979400000&width=800&height=auto&aspect=true" alt="Gorro 2">
       <h3>Beanie Original Shallow Cuff</h3>
       <p>Perfecto para mantenerte abrigado durante el invierno.</p>
       <p><strong>Marca:</strong> Vans</p>
       <p><strong>Precio:</strong> $399.99</p>
       <p><strong>Stock:</strong> 20 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Beanie Original Shallow Cuff', 'Vans', 399.99, 20)">
+      <div data-tooltip="Precio:$399.99" class="button" onclick="agregarProducto('Beanie Original Shallow Cuff', 'Vans', 399.99, 20)">
       </div>
     </div>
-    <div class="card">
+    <div class="card" data-price="399">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1939447-800-auto?v=638606549548500000&width=800&height=auto&aspect=true" alt="Gorra 2">
       <h3>Beanie Core Basics</h3>
       <p>El gorro Core Basics está confeccionado 100 % en acrílico y tiene una etiqueta con clip de Vans.</p>
       <p><strong>Marca:</strong> Vans</p>
       <p><strong>Precio:</strong> $399</p>
       <p><strong>Stock:</strong> 10 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Beanie Core Basics', 'Vans', 399, 10)">
+      <div data-tooltip="Precio:$399" class="button" onclick="agregarProducto('Beanie Core Basics', 'Vans', 399, 10)">
       </div>
     </div>
   </div>
@@ -123,6 +123,7 @@
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
+<script src="../spatial/js/filtrarPrecioGorros.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="../spatial/js/agregarProductos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

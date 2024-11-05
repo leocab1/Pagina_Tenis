@@ -11,6 +11,9 @@
     <title>Inicio de Sesión - SneakerHub</title>
 </head>
 
+
+
+
 <body>
     <div class="container" id="container">
         <div class="form-container sign-up">
@@ -35,11 +38,10 @@
                 <input type="password" name="contrasena" placeholder="Contraseña" required>
                 <label for="rol">Selecciona tu rol:</label>
                 <select name="rol" id="rol" required>
-                    <option value="usuario">Usuario</option>
-                    <option value="admin">Administrador</option>
+                    <option value="2">Usuario</option>
+                    <option value="1">Administrador</option>
                 </select>
-                <a href="restcont.html">¿Olvidaste tu contraseña?</a>
-                <button type="submit" name="submit">Iniciar Sesión</button>
+                        <button type="submit" name="submit">Iniciar Sesión</button>
             </form>
         </div>
         <div class="toggle-container">

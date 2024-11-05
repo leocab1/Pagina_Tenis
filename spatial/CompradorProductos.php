@@ -355,14 +355,14 @@
 
     </div>
     
-    <div class="card">
+    <div class="card" data-price="950">
   <img src="./images/mid.png" alt="Tenis 8">
   <h3>blazer mid 77 vntg</h3>
   <p>Los Tenis Nike Blazer Mid 77 Vintage White Black para hombres son un clásico de la década de los 70s.</p>
   <p><strong>ID:</strong> 00123</p>
-  <p><strong>Precio:</strong> $120</p>
+  <p><strong>Precio:</strong> $950</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('blazer mid 77 vntg','00123',  120)" >
+  <div data-tooltip="Precio:$950" class="button" onclick="agregarProducto('blazer mid 77 vntg','00123',  120)" >
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -374,14 +374,14 @@
   </div>
 </div> 
 
-    <div class="card">
+    <div class="card" data-price="2500">
   <img src="./images/zoom.jpg" alt="Tenis 8">
   <h3>zoom vomero 5 sp</h3>
   <p>Siente cómo la energía fluye a través de tus pies.</p>
   <p><strong>ID:</strong> 00123</p>
-  <p><strong>Precio:</strong> $80</p>
+  <p><strong>Precio:</strong> $2500</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio: $80" class="button" onclick="agregarProducto('zoom vomero 5 sp', '00123', 80)">
+  <div data-tooltip="Precio: $2500" class="button" onclick="agregarProducto('zoom vomero 5 sp', '00123', 2500)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -393,14 +393,14 @@
   </div>
 </div>
 
-<div class="card">
+<div class="card" data-price="1500">
   <img src="./images/ad.png" alt="Tenis 8">
   <h3>Forum Low White Royal Blue</h3>
   <p>Tenis casuales estilos new.</p>
   <p><strong>ID:</strong> 00123</p>
-  <p><strong>Precio:</strong> $120</p>
+  <p><strong>Precio:</strong> $1500</p>
   <p><strong>Stock:</strong> 10 unidades</p>
-  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Forum Low White Royal Blue', '00123', 120)">
+  <div data-tooltip="Precio:$1500" class="button" onclick="agregarProducto('Forum Low White Royal Blue', '00123', 1500)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -445,7 +445,7 @@
 <script src="assets/js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="./js/agregarProductos.js"></script>
-
+<script src="../spatial/js/compradorjs.js"></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {

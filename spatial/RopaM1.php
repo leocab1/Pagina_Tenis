@@ -112,27 +112,27 @@
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="../spatial/images/guera.avif" alt="Camisa 1">
+      <h3>Playera manga corta GUESS cuello redondo para mujer      </h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> GUESS</p>
+      <p><strong>Precio:</strong> $750</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="../spatial/images/guerita.avif" alt="Camisa 1">
+      <h3>Playera manga larga Levi's cuello redondo para mujer </h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Levis</p>
+      <p><strong>Precio:</strong> $1,250.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="../spatial/images/ropa1.jpg" alt="Camisa 1">
-      <h3>Camisa de Algodón</h3>
+      <img src="../spatial/images/levisss.avif" alt="Camisa 1">
+      <h3>Playera manga larga Levi's cuello redondo para mujer</h3>
       <p>Comodidad y frescura para el día a día.</p>
-      <p><strong>ID:</strong> R001</p>
-      <p><strong>Precio:</strong> $30</p>
+      <p><strong>Marca:</strong> Levis</p>
+      <p><strong>Precio:</strong> $699</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
@@ -155,16 +155,16 @@
       <img src="../spatial/images/sportuwu.jpg" alt="Camisa 1">
       <h3>chamarra nike sportswear essential</h3>
       <p>La Chamarra Nike Sportswear Essential para mujeres tiene un estilo oversized con forro de malla que te permite adoptar el look bomber clásico cuando hace frío.</p>
-      <p><strong>ID:</strong> R011</p>
+      <p><strong>Marca:</strong> Nike</p>
       <p><strong>Precio:</strong> $1,589.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1918564-800-auto?v=638578925004400000&width=800&height=auto&aspect=true" alt="Camisa 1">
-      <h3>Camisa Wilshire</h3>
-      <p>Luce fabuloso a cuadros con la camisa Wilshire Mini Plaid Woven.</p>
-      <p><strong>Marca:</strong>Vans</p>
-      <p><strong>Precio:</strong> $30</p>
+      <img src="../spatial/images/calvin.avif" alt="Camisa 1">
+      <h3>Playera manga corta Calvin Klein Jeans cuello redondo para mujer</h3>
+      <p>CALVIN KLEIN JEANS, Woven.</p>
+      <p><strong>Marca:</strong>Calvin Klein</p>
+      <p><strong>Precio:</strong> $799</p>
       <p><strong>Stock:</strong> 15 unidades</p>
     </div>
     <div class="card">

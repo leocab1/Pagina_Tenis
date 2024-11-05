@@ -3,6 +3,6 @@ function animar() {
     document.getElementById('fullscreen-anim').classList.add('transition-wipe-right'); // Activa la animación
 
     setTimeout(() => {
-        window.location.href = './te'; // Redirige a la nueva página
-    }, 12500); // Debe coincidir con la duración de la animación
+        window.location.href = './tenisUsuario.php'; // Redirige a la nueva página
+    }, 6500); // Debe coincidir con la duración de la animación
 }

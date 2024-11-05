@@ -67,14 +67,14 @@
 
 <section class="product-cards">
   <div class="card-container">
-    <div class="card">
+    <div class="card" data-price="599">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1946564-800-auto?v=638629024308870000&width=800&height=auto&aspect=true" alt="Playera">
       <h3>Playera corta sin mangas</h3>
       <p>La playera corta sin mangas ajustada es una playera confeccionada con un tejido de punto de algodón pesado y presenta un gráfico de dados en llamas de Vans® en la parte delantera.</p>
       <p><strong>Marca:</strong>Vans</p>
       <p><strong>Precio:</strong> $599</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
+      <div data-tooltip="Precio:$599" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 599, 5)">
       </div>
     </div>
     <div class="card">
@@ -254,21 +254,7 @@
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
 <script src="./js/agregarProductos.js"></script>
-
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const productCards = document.querySelectorAll('.card');
-    
-    const productCount = productCards.length;
-    
-    const productCountElement = document.getElementById('product-count');
-    
-    if (productCountElement) {
-      productCountElement.textContent = `Número de productos: ${productCount}`;
-    }
-  });
-</script>
+<script src="../spatial/js//filtrarPrecioGorros.js"></script>
 
 <script src="../spatial/js/animacion.js"></script>
 
