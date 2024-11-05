@@ -75,7 +75,15 @@
       <p><strong>Precio:</strong> $599</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$599" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 599, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>
+    </div>
     </div>
     <div class="card">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1919108-800-auto?v=638578929252500000&width=800&height=auto&aspect=true" alt="Pantalones 1">
@@ -85,7 +93,15 @@
       <p><strong>Precio:</strong> $650</p>
       <p><strong>Stock:</strong> 10 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1914455-800-auto?v=638578893880730000&width=800&height=auto&aspect=true" alt="Chaqueta 1">
@@ -95,7 +111,15 @@
       <p><strong>Precio:</strong> $580</p>
       <p><strong>Stock:</strong> 8 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1914335-800-auto?v=638578892905700000&width=800&height=auto&aspect=true" alt="Camisa 1">
@@ -105,7 +129,15 @@
       <p><strong>Precio:</strong> $899</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>
+    </div>
     </div>
     <div class="card">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1919661-800-auto?v=638578933750430000&width=800&height=auto&aspect=true" alt="Camisa 1">
@@ -115,7 +147,15 @@
       <p><strong>Precio:</strong> $30</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/2/_/2_12561.jpg?width=768&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
@@ -125,7 +165,15 @@
       <p><strong>Precio:</strong> $499.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_12498.jpg?width=1920&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
@@ -135,7 +183,15 @@
       <p><strong>Precio:</strong> $279.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_10575.jpg?width=768&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
@@ -145,7 +201,15 @@
       <p><strong>Precio:</strong> $329.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/BONITA.avif" alt="Camisa 1">
@@ -155,7 +219,15 @@
       <p><strong>Precio:</strong> $750</p>
       <p><strong>Stock:</strong> 75 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/the.avif" alt="Camisa 1">
@@ -165,7 +237,15 @@
       <p><strong>Precio:</strong> $2,000</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/face.avif" alt="Camisa 1">
@@ -175,7 +255,15 @@
       <p><strong>Precio:</strong> $1,150</p>
       <p><strong>Stock:</strong> 7 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_12593.jpg?width=1920&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
@@ -185,7 +273,15 @@
       <p><strong>Precio:</strong> $499.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/1/_/1_7462.jpg?width=1920&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
@@ -195,7 +291,15 @@
       <p><strong>Precio:</strong> $299.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="https://app.cuidadoconelperro.com.mx/media/catalog/product/5/_/5_2031.jpg?width=768&optimize=low&bg-color=255,255,255&fit=bounds" alt="Camisa 1">
@@ -205,7 +309,15 @@
       <p><strong>Precio:</strong> $299.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/thee.avif" alt="Camisa 1">
@@ -215,7 +327,15 @@
       <p><strong>Precio:</strong> $2,250</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/theeee.avif" alt="Camisa 1">
@@ -226,7 +346,15 @@
       <p><strong>Precio:</strong> $3,500.0</p>
       <p><strong>Stock:</strong> 5 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
   </div>
 </section>
@@ -235,16 +363,10 @@
   <a href="./RopaMU.php" class="btn">Catálogo Siguiente</a> 
 </nav>
 
-<!-- Footer -->
-<footer id="footer">
-  <div class="container">
-    <ul class="icons">
-      <li><a href="#" class="icon fa-facebook"></a></li>
-      <li><a href="#" class="icon fa-twitter"></a></li>
-      <li><a href="#" class="icon fa-instagram"></a></li>
-    </ul>
-  </div>
-</footer>
+
+
+
+
 <div class="copyright">
   <p>&copy; SneakerHub</p>
 </div>
@@ -253,6 +375,7 @@
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="../spatial/js/compradorjs.js"></script>
 <script src="./js/agregarProductos.js"></script>
 <script src="../spatial/js//filtrarPrecioGorros.js"></script>
 

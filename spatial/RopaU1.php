@@ -51,8 +51,16 @@
       <p><strong>Marca:</strong>Pirma</p>
       <p><strong>Precio:</strong> $1,699.00</p>
       <p><strong>Stock:</strong> 15 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('jersey pirma cruz azul local 24/25', 'Pirma', 250, 5)">
-      </div>
+      <div data-tooltip="Precio:$1,699.00" class="button" onclick="agregarProducto('jersey pirma cruz azul local 24/25', 'Pirma', 250, 5)">
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/chulada.jpg" alt="Pantalones 1">
@@ -61,8 +69,17 @@
       <p><strong>Marca:</strong>Nike</p>
       <p><strong>Precio:</strong> $1,899.00</p>
       <p><strong>Stock:</strong> 10 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('jersey nike pumas unam local 24/25', 'Nike', 250, 5)">
-      </div>
+      <div data-tooltip="Precio:$1,899.00" class="button" onclick="agregarProducto('jersey nike pumas unam local 24/25', 'Nike', 250, 5)">
+    
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>
+    </div>
     </div>
     <div class="card">
       <img src="https://tiendaclubpuebla.com/api/fileApi/images/124/8/jersey-local-1-1726268201177.jpg" alt="Chaqueta 1">
@@ -72,7 +89,15 @@
       <p><strong>Precio:</strong> $1,399.00</p>
       <p><strong>Stock:</strong> 155 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Jersey Pirma Hombre Local Club Puebla 24-25 Blanco', 'Pirma', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1918544-800-auto?v=638578924865370000&width=800&height=auto&aspect=true" alt="Camisa 1">
@@ -83,7 +108,15 @@
       <p><strong>Precio:</strong> $30</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Sudadera Original Standards Varsity', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://ss271.liverpool.com.mx/xl/1146427351.jpg" alt="Camisa 1">
@@ -93,7 +126,15 @@
       <p><strong>Precio:</strong> $750</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$750" class="button" onclick="agregarProducto('Camisa casual Dockers de algodón manga larga para hombre', 'Dockers', 750, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/oper.avif" alt="Camisa 1">
@@ -103,7 +144,15 @@
       <p><strong>Precio:</strong> $1,399</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$1,399" class="button" onclick="agregarProducto('Camisa casual Dockers de algodón manga larga para hombre', 'Vans', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="../spatial/images/ope.avif" alt="Camisa 1">
@@ -113,7 +162,15 @@
       <p><strong>Precio:</strong> $850</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$850" class="button" onclick="agregarProducto('Playera tipo polo Dockers T3 Polo para hombre', 'Dockers', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card">
       <img src="https://ss271.liverpool.com.mx/xl/1146748069.jpg" alt="Camisa 1">
@@ -123,7 +180,15 @@
       <p><strong>Precio:</strong> $700</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$700" class="button" onclick="agregarProducto('Playera tipo polo Dockers T3 POLO para hombre', 'Dockers', 250, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
       <img src="https://ss251.liverpool.com.mx/xl/1156669225.jpg" alt="Camisa 1">
@@ -133,7 +198,15 @@
       <p><strong>Precio:</strong> $639.99</p>
       <p><strong>Stock:</strong> 15 unidades</p>
       <div data-tooltip="Precio:$639.99" class="button" onclick="agregarProducto('Playera tipo polo American Eagle para hombre', 'American Eagle', 639.99, 5)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>
+    </div>
     </div>
     <div class="card">
       <img src="https://ss251.liverpool.com.mx/xl/1150904546.jpg" alt="Camisa 1">

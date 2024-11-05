@@ -54,14 +54,15 @@
   <h2 style="text-align: center;">Accesorios</h2>
   <div class="card-container">
     <div class="card" data-price="359">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1454874-800-auto?v=638453342867570000&width=800&height=auto&aspect=true" alt="Cartera">
-      <h3>Cartera Slipped</h3>
-      <p>La cartera Slipped está hecha 100% de poliéster con tres pliegues y estampado a cuadros. Cuenta con una amplia compartimento para billetes, ranuras para tarjetas, una ventana para tu identificación y un bolsillo para monedas.</p>
+      <img src="../spatial/images/off.webp" alt="Cartera">
+      <h3>Calcetines Art Vans media altura</h3>
+      <p>Los calcetines Art Half Crew de Vans son unos calcetines de media caña con puntera y talón grises, una franja de
+     jacquard y el llamativo logotipo rojo de Vans® en el borde..</p>
       <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $359</p>
+      <p><strong>Precio:</strong> $299</p>
       <p><strong>Stock:</strong> 25 unidades</p>
          
-  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('nike full force', '00123', 120)">
+  <div data-tooltip="Precio:$299" class="button" onclick="agregarProducto('Calcetines Art Vans media altura', '00123', 299)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -73,14 +74,14 @@
   </div>
     </div>
     <div class="card" data-price="320">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1507202-800-auto?v=638454277033130000&width=800&height=auto&aspect=true" alt="Lentes">
-      <h3>Spicoli Blanco/Negro</h3>
-      <p>Los lentes de sol Spicoli 4 están fabricados 100% de policarbonato con el logo de Vans en relieve a la altura de la sien y protección UVA/UVB 400.</p>
+      <img src="../spatial/images/uwuu.webp" alt="Lentes">
+      <h3>Paquete de 3 calcetines Arched Kick Vans</h3>
+      <p>Disfruta de un confort inmejorable con estos calcetines invisibles, ideales porque combinan un corte de lo más cómodo con un irreprochable diseño acolchado y un corte justo por debajo del tobillo.</p>
       <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $320</p>
+      <p><strong>Precio:</strong> $349</p>
       <p><strong>Stock:</strong> 30 unidades</p>
 
-  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('nike full force', '00123', 120)">
+  <div data-tooltip="Precio:$349" class="button" onclick="agregarProducto('nike full force', '00123', 349)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -110,15 +111,15 @@
     </div>
   </div>
     </div>
-    <div class="card" data-price="399">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1939447-800-auto?v=638606549548500000&width=800&height=auto&aspect=true" alt="Gorra 2">
-      <h3>Beanie Core Basics</h3>
-      <p>El gorro Core Basics está confeccionado 100 % en acrílico y tiene una etiqueta con clip de Vans.</p>
+    <div class="card" data-price="999">
+      <img src="../spatial/images/moila.png" alt="Gorra 2">
+      <h3>Mochila Daily</h3>
+      <p>Ya sea que estés en movimiento o en tu patineta, la mochila Daily es lo suficientemente grande y resistente para todos tus elementos esenciales. Con un cierre superior con cremallera. </p>
       <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $399</p>
+      <p><strong>Precio:</strong> $999</p>
       <p><strong>Stock:</strong> 10 unidades</p>
          
-  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('nike full force', '00123', 120)">
+  <div data-tooltip="Precio:$999" class="button" onclick="agregarProducto('nike full force', '00123', 999)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">

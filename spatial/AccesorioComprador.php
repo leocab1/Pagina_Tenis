@@ -91,15 +91,15 @@
     </div>
   </div>
     </div>
-    <div class="card" data-price="399.99">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1892261-800-auto?v=638575376979400000&width=800&height=auto&aspect=true" alt="Gorro 2">
-      <h3>Beanie Original Shallow Cuff</h3>
-      <p>Perfecto para mantenerte abrigado durante el invierno.</p>
+    <div class="card" data-price="1,999">
+      <img src="../spatial/images/DX.webp" alt="Gorro 2">
+      <h3>Mochila Vans DX</h3>
+      <p>Desde el skatepark hasta dondequiera que te lleve el día, la Vans DX Skatepack es una mochila de lujo confeccionada con características avanzadas que mantienen tus cosas seguras y te hacen la vida más fácil.</p>
       <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $399.99</p>
+      <p><strong>Precio:</strong> $1,999</p>
       <p><strong>Stock:</strong> 20 unidades</p>
 
-  <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('nike full force', '00123', 120)">
+  <div data-tooltip="Precio:$1,999" class="button" onclick="agregarProducto('nike full force', '00123', 120)">
     <div class="button-wrapper">
       <div class="text">Agregar</div>
       <span class="icon">
@@ -110,11 +110,11 @@
     </div>
   </div>
     </div>
-    
+
     <div class="card" data-price="399">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1939447-800-auto?v=638606549548500000&width=800&height=auto&aspect=true" alt="Gorra 2">
-      <h3>Beanie Core Basics</h3>
-      <p>El gorro Core Basics está confeccionado 100 % en acrílico y tiene una etiqueta con clip de Vans.</p>
+      <img src="../spatial/images/uwu.webp" alt="Gorra 2">
+      <h3>Paquete de 3 calcetines Classic de media altura</h3>
+      <p>Los calcetines de media altura Classic lucen el logo de Vans® en jacquard en el borde.</p>
       <p><strong>Marca:</strong> Vans</p>
       <p><strong>Precio:</strong> $399</p>
       <p><strong>Stock:</strong> 10 unidades</p>

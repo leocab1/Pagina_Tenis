@@ -76,7 +76,15 @@
       <p><strong>Precio:</strong> $465</p>
       <p><strong>Stock:</strong> 25 unidades</p>
       <div data-tooltip="Precio:$465" class="button" onclick="agregarProducto('Gorra Vans 66 Structured', 'Vans', 465, 10)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card" data-price="320">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1939448-800-auto?v=638606549599630000&width=800&height=auto&aspect=true" alt="Gorra 1">
@@ -86,7 +94,15 @@
       <p><strong>Precio:</strong> $320</p>
       <p><strong>Stock:</strong> 30 unidades</p>
       <div data-tooltip="Precio:$320" class="button" onclick="agregarProducto('Beanie Waffle Cuff', 'Vans', 399, 10)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>  
+    </div>
     </div>
     <div class="card" data-price="399.9">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1892261-800-auto?v=638575376979400000&width=800&height=auto&aspect=true" alt="Gorro 2">
@@ -96,7 +112,15 @@
       <p><strong>Precio:</strong> $399.99</p>
       <p><strong>Stock:</strong> 20 unidades</p>
       <div data-tooltip="Precio:$399.99" class="button" onclick="agregarProducto('Beanie Original Shallow Cuff', 'Vans', 399.99, 20)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card" data-price="399">
       <img src="https://vansmx.vtexassets.com/arquivos/ids/1939447-800-auto?v=638606549548500000&width=800&height=auto&aspect=true" alt="Gorra 2">
@@ -106,7 +130,15 @@
       <p><strong>Precio:</strong> $399</p>
       <p><strong>Stock:</strong> 10 unidades</p>
       <div data-tooltip="Precio:$399" class="button" onclick="agregarProducto('Beanie Core Basics', 'Vans', 399, 10)">
-      </div>
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>
+    </div>
     </div>
   </div>
 </section>

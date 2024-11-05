@@ -69,44 +69,76 @@
   <h2 style="text-align: center;">Catálogo de Gorros y Gorras</h2>
   <div class="card-container">
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1937663-800-auto?v=638606487092930000&width=800&height=auto&aspect=true" alt="Gorro 1">
-      <h3>Gorra Vans 66 Structured</h3>
-      <p>Comodidad y estilo para cualquier ocasión.</p>
+      <img src="../spatial/images/azul.webp" alt="Gorro 1">
+      <h3>Beani Densmore</h3>
+      <p>El gorro con borde vuelto ancho Densmore Wide luce el logotipo de la marca en la parte delantera y mide 19 cm de altura.</p>
       <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $350</p>
+      <p><strong>Precio:</strong> $499</p>
       <p><strong>Stock:</strong> 25 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Gorra Vans 66 Structured', 'Vans', 399, 10)">
-      </div>
+      <div data-tooltip="Precio:$499" class="button" onclick="agregarProducto('Beani Densmores', 'Vans', 499, 10)">
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
     <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1939448-800-auto?v=638606549599630000&width=800&height=auto&aspect=true" alt="Gorra 1">
-      <h3>Beanie Waffle Cuff</h3>
-      <p>Diseño moderno y ajustable para mayor comodidad.</p>
-      <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $320</p>
-      <p><strong>Stock:</strong> 30 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Beanie Waffle Cuff', 'Vans', 399, 10)">
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1892261-800-auto?v=638575376979400000&width=800&height=auto&aspect=true" alt="Gorro 2">
-      <h3>Beanie Original Shallow Cuff</h3>
-      <p>Perfecto para mantenerte abrigado durante el invierno.</p>
-      <p><strong>Marca:</strong> Vans</p>
-      <p><strong>Precio:</strong> $399.99</p>
-      <p><strong>Stock:</strong> 20 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Beanie Original Shallow Cuff', 'Vans', 399.99, 20)">
-      </div>
-    </div>
-    <div class="card">
-      <img src="https://vansmx.vtexassets.com/arquivos/ids/1939447-800-auto?v=638606549548500000&width=800&height=auto&aspect=true" alt="Gorra 2">
-      <h3>Beanie Core Basics</h3>
-      <p>El gorro Core Basics está confeccionado 100 % en acrílico y tiene una etiqueta con clip de Vans.</p>
+      <img src="../spatial/images/amañiño.webp" alt="Gorra 1">
+      <h3>Beanie Core Basic</h3>
+      <p>El gorro Core Basics es un gorro con puños 100 % acrílico y etiqueta de abrazadera tejida.</p>
       <p><strong>Marca:</strong> Vans</p>
       <p><strong>Precio:</strong> $399</p>
-      <p><strong>Stock:</strong> 10 unidades</p>
-      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Beanie Core Basics', 'Vans', 399, 10)">
+      <p><strong>Stock:</strong> 30 unidades</p>
+      <div data-tooltip="Precio:$399" class="button" onclick="agregarProducto('Beanie Core Basic', 'Vans', 399, 10)">
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>   
+    </div>
+    </div>
+    <div class="card">
+      <img src="../spatial/images/morado.png" alt="Gorro 2">
+      <h3>Gorra Hosmer</h3>
+      <p>La gorra Hosmer con visera curvada luce un diseño de 6 paneles con cierre trasero ajustable y viene decorada con el logotipo de la marca en la parte delantera.</p>
+      <p><strong>Marca:</strong> Vans</p>
+      <p><strong>Precio:</strong> $549</p>
+      <p><strong>Stock:</strong> 20 unidades</p>
+      <div data-tooltip="Precio:$549" class="button" onclick="agregarProducto('Gorra Hosmer', 'Vans', 399.99, 20)">
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div>   
       </div>
+    </div>
+    <div class="card">
+      <img src="../spatial/images/data.png" alt="Gorra 2">
+      <h3>Gorra Data system</h3>
+      <p>La gorra Data System es una gorra de 5 paneles hecha de algodón duradero, con cierre de correa en la parte posterior y bordado directo en el costado.</p>
+      <p><strong>Marca:</strong> Vans</p>
+      <p><strong>Precio:</strong> $549</p>
+      <p><strong>Stock:</strong> 10 unidades</p>
+      <div data-tooltip="Precio:$120" class="button" onclick="agregarProducto('Beanie Core Basics', 'Vans', 549, 10)">
+      <div class="button-wrapper">
+      <div class="text">Agregar</div>
+      <span class="icon">
+        <svg viewBox="0 0 16 16" class="bi bi-cart2" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path>
+        </svg>
+      </span>
+    </div> 
+    </div>
     </div>
   </div>
 </section>
